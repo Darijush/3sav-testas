@@ -12,7 +12,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://darijush.github.io/05-24_404_astronaut/
 
-Design: [Fetures]
+Design: [Dizainas](https://user-images.githubusercontent.com/105633801/171817097-59a45293-dde9-4c48-961d-6bad376afb91.png)
 
 ## Project features
 
@@ -23,4 +23,4 @@ Design: [Fetures]
 
 ## Authors
 
-Darijush: [Github](https://github.com/Darijush)
+Darijush: [Github](https://github.com/Darijush)!
