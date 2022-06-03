@@ -4,7 +4,6 @@ body * {
     padding: 0;
     vertical-align: top;
     box-sizing: border-box;
-    position: relative;
 }
 
 body {
@@ -12,13 +11,14 @@ body {
 }
 
 .main-section{
+    margin: 20px;
+    position: absolute;
+    top:20%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap:20px;
     justify-items: center;
     align-items: center;
-    /* position: absolute;
-    top:50%; */
 }
 .main-section > .column{
     text-align: center;
@@ -28,8 +28,82 @@ body {
     align-items: center;
     gap: 20px;
 }
-.column > .images > img{
-    max-width: 100px;
+ .images1{
+    height: 200px;
+    background-color: #70C0C9;
+    position: relative;
+}
+.images1::before{
+    content: "1";
+    height: 10px;
+    width: 10px;
+    color: #70C0C9;
+    padding: 10px;
+    border: 3px solid #70C0C9;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top:-10px;
+    left: -10px;
+}
+.images2{
+    height: 200px;
+    background-color: #4074BD;
+    position: relative;
+}
+.images2::before{
+    content: "2";
+    height: 10px;
+    width: 10px;
+    color: #4074BD;
+    padding: 10px;
+    border: 3px solid #4074BD;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top:-10px;
+    left: -10px;
+}
+.images3{
+    height: 200px;
+    background-color: #E05E46;
+    position: relative;
+}
+.images3::before{
+    content: "3";
+    height: 10px;
+    width: 10px;
+    color: #E05E46;
+    padding: 10px;
+    border: 3px solid #E05E46;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top:-10px;
+    left: -10px;
+}
+ .images4{
+    height: 200px;
+    background-color: #919191;
+    position: relative;
+}
+.images4::before{
+    content: "4";
+    height: 10px;
+    width: 10px;
+    color: #919191;
+    padding: 10px;
+    border: 3px solid #919191;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top:-10px;
+    left: -10px;
+    z-index: 2;
+}
+.column  img{
+    height: 200px;
+    justify-content: stretch;
     filter: invert(1);
 }
 .column > h2{
